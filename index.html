@@ -15,11 +15,12 @@
         <p class="description">
             Enter the bill amount and cash given by the customer and know minimum number of notes to return.
         </p>
-        <label for="bill-amount">Bill Amount:</label>
+        <label for="bill-amount" id="label-bill">Bill Amount:</label>
         <input id="bill-amount" type="number">
-        <label for="cash-given">Cash Given:</label>
+        <button id="nxt-btn"><span id="nxt">Next</span></button>
+        <label for="cash-given" id="label-check">Cash Given:</label>
         <input id="cash-given" type="number">
-        <button id="check-button">Check</button>
+        <button id="check-button"><span id="check">Check</span></button>
         <p id="error-msg"></p>
         <table class="checking-table">
             <caption>
@@ -27,7 +28,13 @@
             </caption>
             <tr>
                 <th>No.of Notes </th>
-                <td></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
             </tr>
             <tr>
                 <th>Note</th>

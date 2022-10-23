@@ -2,4 +2,59 @@
     display: flex;
     flex-direction: column;
     width: 20rem;
+    text-align: center;
+    margin: auto;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: serif;
+}
+.description{
+    font-size: large;
+    font-family: serif;
+}
+#label-bill{
+    font-weight: bold;
+    margin: 0.2rem;
+}
+
+#label-check{
+    font-weight: bold;
+    margin: 0.2rem;
+}
+
+#bill-amount{
+    padding: 0.5rem , 0.2rem;
+    margin: 0.5rem;
+}
+#cash-given{
+    padding: 0.5rem , 0.2rem;
+    margin: 0.5rem;
+}
+#nxt-btn{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0.2rem solid black;
+}
+#nxt{
+    font-family: serif;
+    font-size: 1rem;
+    color: #18181b ;
+}
+#check-button{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0.2rem solid black;
+}
+#check{
+    font-family: serif;
+    font-size: 1rem;
+    color: #18181b ;
+}
+.checking-table{
+    margin: 1rem;
+    padding: 1.5rem;
+    border: 00.2rem solid black;
 }
