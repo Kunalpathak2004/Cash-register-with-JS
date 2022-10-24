@@ -4,6 +4,7 @@
     width: 20rem;
     text-align: center;
     margin: auto;
+    background-color: ;
 }
 
 .heading{
@@ -57,4 +58,7 @@
     margin: 1rem;
     padding: 1.5rem;
     border: 00.2rem solid black;
+}
+.notes{
+     border-bottom: 1px solid black;
 }

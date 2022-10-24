@@ -13,7 +13,7 @@ function validateBillAndCashAmount() {
     hideMessage ();
     
     if (billAmount.value > 0) {
-        hideCashGiven();
+
         if (cashGiven.value >= billAmount.value) {
             var amountToBeReturned = cashGiven.value - billAmount.value;
             calculateChange(amountToBeReturned);
@@ -46,6 +46,3 @@ function errorMessage(msg) {
     message.innerText = msg;
 }
 
-function hideCashGiven(){
-        cashGiven.style.display = "none";
-}
